@@ -26,10 +26,9 @@ afterEvaluate {
     publishing {
         publications {
             register<MavenPublication>("release") {
-
                 groupId = "com.github.pradeepyubin"
-                artifactId = "simpleKml"
-                version = "1.0"
+                artifactId = "SampleKML"
+                version = "2.5"
             }
         }
     }
